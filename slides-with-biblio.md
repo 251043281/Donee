@@ -130,5 +130,44 @@ The work done $W$ is positive when the system expands against an external pressu
 ::::
 
 ---
+
+# Process Control: Machine 1
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+### Key Statistics
+- **Mean**: 51.046 $\mu$
+- **Median**: 51.091 $\mu$
+- **Std Dev**: 0.584 $\sigma$
+
+Configuration:
+- Temp: 303K
+- Pressure: 100kPa
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/control_chart_m1.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::::::::::::
+
+---
+
+# Process Capability Analysis
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+### Analysis (Machine 1)
+- **Temperature**: 338K
+- **Pressure**: 200kPa
+
+This chart visualizes the distribution of part lengths against calculated control limits to determine if the process is capable of meeting specifications.
+:::
+
+::: {.column width="60%"}
+![](media/plots/capability_m1.png)
+:::
+::::::::::::::
+
+---
 # Bibliography
 <div id="refs"></div>
